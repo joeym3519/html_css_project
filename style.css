@@ -95,10 +95,15 @@ img{
     background-color: #E5E7EB;
     color:#1F2937;
     display: flex;
+    margin: 0;
     flex-direction: column;
     align-content: space-around;
     justify-content: center;
     padding: 130px;
+}
+
+.position{
+    font-weight: 500;
 }
 
 /*need to figure out how to make large border white?*/
@@ -108,12 +113,24 @@ img{
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    flex-flow: column wrap;
-    align-content: center;
-    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    border: 100px solid #f9faf8;
+    border-radius: 25px;
 
 }
 
+.cta
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
 .button2
 {
     background-color: #F9FAF8;
